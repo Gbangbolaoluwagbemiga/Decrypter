@@ -39,3 +39,4 @@
 - Refactor navbar logic (Build 37)
 - Update page metadata (Build 38)
 - Add unit tests for contract (Build 39)
+- Refactor campaign card component (Build 40)
