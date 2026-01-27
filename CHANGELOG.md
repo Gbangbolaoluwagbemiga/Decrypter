@@ -51,3 +51,4 @@
 - Add unit tests for contract (Build 49)
 - Refactor campaign card component (Build 50)
 - Update styling for mobile responsiveness (Build 51)
+- Optimize smart contract gas usage (Build 52)
