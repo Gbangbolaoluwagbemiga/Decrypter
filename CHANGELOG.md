@@ -28,3 +28,4 @@
 - Add comments to Clarity contract (Build 26)
 - Refactor navbar logic (Build 27)
 - Update page metadata (Build 28)
+- Add unit tests for contract (Build 29)
