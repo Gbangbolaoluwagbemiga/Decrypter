@@ -50,3 +50,4 @@
 - Update page metadata (Build 48)
 - Add unit tests for contract (Build 49)
 - Refactor campaign card component (Build 50)
+- Update styling for mobile responsiveness (Build 51)
