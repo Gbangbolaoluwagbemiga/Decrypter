@@ -46,3 +46,4 @@
 - Update dependency versions (Build 44)
 - Fix typo in README (Build 45)
 - Add comments to Clarity contract (Build 46)
+- Refactor navbar logic (Build 47)
