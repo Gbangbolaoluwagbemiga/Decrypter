@@ -53,3 +53,4 @@
 - Update styling for mobile responsiveness (Build 51)
 - Optimize smart contract gas usage (Build 52)
 - Add error handling for wallet connection (Build 53)
+- Update dependency versions (Build 54)
