@@ -58,3 +58,4 @@
 - Add comments to Clarity contract (Build 56)
 - Refactor navbar logic (Build 57)
 - Update page metadata (Build 58)
+- Add unit tests for contract (Build 59)
