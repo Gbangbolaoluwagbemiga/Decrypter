@@ -77,6 +77,36 @@
     )
 )
 
+(define-public (claim-funds (campaign-id uint))
+    (let
+        (
+            (campaign (unwrap! (map-get? campaigns campaign-id) err-not-found))
+            (pledged-amount (get pledged campaign))
+        )
+        (asserts! (is-eq (get owner campaign) tx-sender) err-forbidden)
+        (asserts! (>= pledged-amount (get goal campaign)) err-goal-not-met)
+        (asserts! (not (get claimed campaign)) err-already-claimed)
+        (try! (as-contract (stx-transfer? pledged-amount tx-sender (get owner campaign))))
+        (map-set campaigns campaign-id (merge campaign { claimed: true }))
+        (ok true)
+    )
+)
+
+(define-public (refund (campaign-id uint))
+    (let
+        (
+            (campaign (unwrap! (map-get? campaigns campaign-id) err-not-found))
+            (pledged-amount (get pledged campaign))
+            (backer-pledge (unwrap! (map-get? pledges { campaign-id: campaign-id, backer: tx-sender }) err-not-found))
+        )
+        (asserts! (>= block-height (get deadline campaign)) err-deadline-not-passed)
+        (asserts! (< pledged-amount (get goal campaign)) err-goal-not-met)
+        (try! (as-contract (stx-transfer? (get amount backer-pledge) tx-sender tx-sender)))
+        (map-delete pledges { campaign-id: campaign-id, backer: tx-sender })
+        (ok true)
+    )
+)
+
 ;; read only functions
 ;;
 
