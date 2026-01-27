@@ -23,3 +23,4 @@
 - Update styling for mobile responsiveness (Build 21)
 - Optimize smart contract gas usage (Build 22)
 - Add error handling for wallet connection (Build 23)
+- Update dependency versions (Build 24)
