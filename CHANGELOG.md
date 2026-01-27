@@ -5,3 +5,4 @@
 - Add error handling for wallet connection (Build 3)
 - Update dependency versions (Build 4)
 - Fix typo in README (Build 5)
+- Add comments to Clarity contract (Build 6)
