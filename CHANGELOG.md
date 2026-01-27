@@ -56,3 +56,4 @@
 - Update dependency versions (Build 54)
 - Fix typo in README (Build 55)
 - Add comments to Clarity contract (Build 56)
+- Refactor navbar logic (Build 57)
