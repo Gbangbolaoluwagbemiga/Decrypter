@@ -40,3 +40,4 @@
 - Update page metadata (Build 38)
 - Add unit tests for contract (Build 39)
 - Refactor campaign card component (Build 40)
+- Update styling for mobile responsiveness (Build 41)
