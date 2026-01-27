@@ -6,3 +6,4 @@
 - Update dependency versions (Build 4)
 - Fix typo in README (Build 5)
 - Add comments to Clarity contract (Build 6)
+- Refactor navbar logic (Build 7)
