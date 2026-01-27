@@ -30,3 +30,4 @@
 - Update page metadata (Build 28)
 - Add unit tests for contract (Build 29)
 - Refactor campaign card component (Build 30)
+- Update styling for mobile responsiveness (Build 31)
