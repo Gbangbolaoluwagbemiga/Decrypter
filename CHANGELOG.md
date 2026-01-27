@@ -18,3 +18,4 @@
 - Add comments to Clarity contract (Build 16)
 - Refactor navbar logic (Build 17)
 - Update page metadata (Build 18)
+- Add unit tests for contract (Build 19)
