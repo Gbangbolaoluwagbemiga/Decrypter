@@ -24,3 +24,4 @@
 - Optimize smart contract gas usage (Build 22)
 - Add error handling for wallet connection (Build 23)
 - Update dependency versions (Build 24)
+- Fix typo in README (Build 25)
