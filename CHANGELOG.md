@@ -44,3 +44,4 @@
 - Optimize smart contract gas usage (Build 42)
 - Add error handling for wallet connection (Build 43)
 - Update dependency versions (Build 44)
+- Fix typo in README (Build 45)
