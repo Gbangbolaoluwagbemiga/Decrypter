@@ -19,7 +19,7 @@ export default function CreateCampaign() {
     }
 
     const options = {
-      contractAddress: "ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM", // Standard devnet deployer
+      contractAddress: "SP2QNSNKR3NRDWNTX0Q7R4T8WGBJ8RE8RA516AKZP", // Mainnet deployment
       contractName: "crowdfunding",
       functionName: "create-campaign",
       functionArgs: [
