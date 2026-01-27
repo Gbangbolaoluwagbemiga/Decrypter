@@ -108,7 +108,13 @@
 )
 
 ;; read only functions
-;;
+(define-read-only (get-campaign (campaign-id uint))
+    (map-get? campaigns campaign-id)
+)
+
+(define-read-only (get-pledge (campaign-id uint) (backer principal))
+    (map-get? pledges { campaign-id: campaign-id, backer: backer })
+)
 
 ;; private functions
 ;;
