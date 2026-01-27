@@ -49,3 +49,4 @@
 - Refactor navbar logic (Build 47)
 - Update page metadata (Build 48)
 - Add unit tests for contract (Build 49)
+- Refactor campaign card component (Build 50)
