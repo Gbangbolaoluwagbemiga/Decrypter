@@ -9,3 +9,4 @@
 - Refactor navbar logic (Build 7)
 - Update page metadata (Build 8)
 - Add unit tests for contract (Build 9)
+- Refactor campaign card component (Build 10)
