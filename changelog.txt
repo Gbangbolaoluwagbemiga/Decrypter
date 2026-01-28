@@ -1,3 +1,4 @@
 Update 0: fix: Mobile responsiveness for campaign card
 Update 1: docs: Update function documentation
 Update 2: feat: Add progress bar animation
+Update 3: feat: Add cancellation mechanism for owners
