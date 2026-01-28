@@ -34,3 +34,4 @@ Update 32: fix: Mobile responsiveness for campaign card
 Update 33: refactor: Extract CampaignCard component
 Update 34: feat: Add cancellation mechanism for owners
 Update 35: fix: Typos in README
+Update 36: style: Update color palette
