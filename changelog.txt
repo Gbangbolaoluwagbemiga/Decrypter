@@ -13,3 +13,4 @@ Update 11: feat: Implement campaign description support
 Update 12: style: Format contract code
 Update 13: feat: Add category field to campaign struct
 Update 14: test: Add unit tests for refund flow
+Update 15: fix: Validation logic for goal amount
