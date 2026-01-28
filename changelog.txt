@@ -40,3 +40,4 @@ Update 38: test: Mock contract calls for frontend
 Update 39: ci: Add linting step
 Update 40: docs: Update function documentation
 Update 41: feat: Integrate wallet connection hook
+Update 42: ui: Create campaign details page
