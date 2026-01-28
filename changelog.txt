@@ -17,3 +17,4 @@ Update 15: fix: Validation logic for goal amount
 Update 16: refactor: Extract CampaignCard component
 Update 17: fix: Typos in README
 Update 18: ui: Create campaign details page
+Update 19: ui: Create campaign details page
