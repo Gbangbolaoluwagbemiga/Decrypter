@@ -16,3 +16,4 @@ Update 14: test: Add unit tests for refund flow
 Update 15: fix: Validation logic for goal amount
 Update 16: refactor: Extract CampaignCard component
 Update 17: fix: Typos in README
+Update 18: ui: Create campaign details page
