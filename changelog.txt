@@ -27,3 +27,4 @@ Update 25: style: Update color palette
 Update 26: ui: Add category filter to home page
 Update 27: feat: Add progress bar animation
 Update 28: fix: Typos in README
+Update 29: style: Format contract code
