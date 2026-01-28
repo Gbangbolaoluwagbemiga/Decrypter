@@ -37,3 +37,4 @@ Update 35: fix: Typos in README
 Update 36: style: Update color palette
 Update 37: ui: Create campaign details page
 Update 38: test: Mock contract calls for frontend
+Update 39: ci: Add linting step
