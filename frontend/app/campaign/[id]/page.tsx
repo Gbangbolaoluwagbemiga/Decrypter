@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { useParams } from "next/navigation"
-import { userSession } from "@/lib/userSession"
+import { getUserSession } from "@/lib/userSession"
 import { openContractCall } from "@stacks/connect"
 import { fetchCallReadOnlyFunction, uintCV } from "@stacks/transactions"
 import { STACKS_MAINNET } from "@stacks/network"
@@ -38,6 +38,7 @@ export default function CampaignDetails() {
     }
 
     const handlePledge = async () => {
+        const userSession = getUserSession()
         if (!userSession.isUserSignedIn()) return alert("Connect wallet")
         
         const options = {

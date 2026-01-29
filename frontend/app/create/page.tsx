@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { userSession } from "@/lib/userSession"
+import { getUserSession } from "@/lib/userSession"
 import { openContractCall } from "@stacks/connect"
 import { uintCV, stringAsciiCV } from "@stacks/transactions"
 
@@ -16,6 +16,7 @@ export default function CreateCampaign() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
+    const userSession = getUserSession()
     
     if (!userSession.isUserSignedIn()) {
       alert("Please connect wallet")

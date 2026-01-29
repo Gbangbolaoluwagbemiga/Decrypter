@@ -3,11 +3,12 @@
 import { AppConfig, UserSession, showConnect } from "@stacks/connect"
 import { useEffect, useState } from "react"
 import Link from "next/link"
-import { userSession } from "@/lib/userSession"
+import { getUserSession } from "@/lib/userSession"
 
 export default function Navbar() {
   const [userData, setUserData] = useState<any>(null)
   const [mounted, setMounted] = useState(false)
+  const userSession = getUserSession()
 
   useEffect(() => {
     setMounted(true)
